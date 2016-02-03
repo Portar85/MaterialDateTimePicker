@@ -5,10 +5,10 @@ android {
     buildToolsVersion '23.0.2' 
 
     defaultConfig {
-        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
-        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
-        versionName project.VERSION_NAME
-        versionCode Integer.parseInt(project.VERSION_CODE)
+        minSdkVersion 14
+        targetSdkVersion 23 
+        versionName '2.3.1'
+        versionCode 2
     }
 
     buildTypes {
