@@ -20,6 +20,7 @@ import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.DialogFragment;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
